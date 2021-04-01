@@ -17,10 +17,14 @@
   },
   "release-it": {
     "git": {
+      "requireCleanWorkingDir": true,
       "requireBranch": "main",
       "commit": true,
       "tag": true,
       "push": true
+    },
+    "github": {
+      "release": true
     }
   }
 }
