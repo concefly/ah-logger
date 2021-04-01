@@ -20,6 +20,7 @@
       "requireCleanWorkingDir": true,
       "requireBranch": "main",
       "commit": true,
+      "commitMessage": "Release ${version}",
       "tag": true,
       "push": true
     }
